@@ -1,0 +1,7 @@
+<view class="section" id="cui-bill">
+	<scroll-view wx:if="{{hasRecord}}"></scroll-view>
+	<view wx:else class="no-record">
+		<image class="no-record-img" src="http://m.jinyipark.com/phoenix/bundles/migbusinessbolinpark/images/record_list.png" alt="无停车记录" />
+		<view class="no-record-title">还没有停车记录</view>
+	</view>
+</view>
